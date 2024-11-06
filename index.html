@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotlight Nigeria</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <img src="logo.png" alt="Spotlight Nigeria Logo" class="logo">
+    <ul>
+      <li><a href="#map-section">Map</a></li>
+      <li><a href="#upload-section">Report an Issue</a></li>
+      <li><a href="#project-status">Project Status</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#success-stories">Success Stories</a></li>
+      <li><a href="#contact-section">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <h1>Spotlight Nigeria</h1>
+    <p>Connecting citizens with authorities to improve infrastructure across Nigeria.</p>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Map Section -->
+    <section id="map-section">
+      <h2>Map of Reported Issues</h2>
+      <div id="map-container">
+        <p>Interactive map showing locations of reported issues</p>
+        <!-- Here you would integrate a real map API like Google Maps -->
+      </div>
+    </section>
+
+    <!-- Upload Section -->
+    <section id="upload-section">
+      <h2>Report an Issue</h2>
+      <form id="upload-form">
+        <label for="category">Category:</label>
+        <select id="category" name="category">
+          <option value="roads">Roads</option>
+          <option value="schools">Schools</option>
+          <option value="water">Water</option>
+          <option value="electricity">Electricity</option>
+          <option value="healthcare">Healthcare</option>
+          <option value="sports">Sports Facilities</option>
+        </select>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" placeholder="Enter state, LGA, specific location">
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" placeholder="Describe the issue..."></textarea>
+
+        <label for="file">Upload Image/Video:</label>
+        <input type="file" id="file" name="file">
+
+        <button type="submit">Submit Issue</button>
+      </form>
+    </section>
+
+    <!-- Project Status Section -->
+    <section id="project-status">
+      <h2>Project Status</h2>
+      <p>View the current status of reported projects and ongoing interventions.</p>
+      <ul>
+        <li>Reported: School in Enugu – No classrooms.</li>
+        <li>In Progress: Road repairs in Ikeja, Lagos.</li>
+        <li>Completed: Water supply project in Kano.</li>
+      </ul>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works">
+      <h2>How It Works</h2>
+      <p>Learn how you can report issues, support projects, and track progress.</p>
+      <ol>
+        <li>Submit an issue by filling out the form with details and images.</li>
+        <li>Our team reviews and verifies reports before publishing.</li>
+        <li>Follow project updates and encourage support from NGOs and philanthropists.</li>
+      </ol>
+    </section>
+
+    <!-- Success Stories Section -->
+    <section id="success-stories">
+      <h2>Success Stories</h2>
+      <div class="story">
+        <h3>Repaired Road in Yaba</h3>
+        <p>After citizen reports, the main road was successfully repaired, improving access for the community.</p>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact-section">
+      <h2>Contact Us</h2>
+      <p>We'd love to hear from you! Reach out to us through any of the following:</p>
+      <ul>
+        <li>Email: <a href="mailto:info@spotlightnigeria.com">info@spotlightnigeria.com</a></li>
+        <li>Phone: +234-123-456-7890</li>
+        <li>Follow us on social media: 
+          <a href="https://twitter.com/SpotlightNigeria" target="_blank">Twitter</a> | 
+          <a href="https://facebook.com/SpotlightNigeria" target="_blank">Facebook</a> | 
+          <a href="https://instagram.com/SpotlightNigeria" target="_blank">Instagram</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Spotlight Nigeria © 2024</p>
+    <p>Empowering communities for a better Nigeria.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
