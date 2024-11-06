@@ -23,18 +23,19 @@ nav {
   color: var(--secondary-white);
   display: flex;
   align-items: center;
+  justify-content: space-between; /* Distributes space to push links to the right */
   padding: 10px 20px;
 }
 
 nav .logo {
   height: 40px;
-  margin-right: 20px;
 }
 
 nav ul {
   list-style-type: none;
   display: flex;
   gap: 15px;
+  margin-left: auto; /* Pushes the list to the far right */
 }
 
 nav ul li {
@@ -45,6 +46,7 @@ nav ul li a {
   color: var(--secondary-white);
   text-decoration: none;
 }
+
 
 header {
   background-color: var(--primary-green);
