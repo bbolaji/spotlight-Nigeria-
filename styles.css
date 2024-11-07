@@ -154,13 +154,12 @@ section {
     </div>
   </section>
 
-<!-- Centered Content Section -->
-  <div class="content-wrapper">
-    <section id="upload-section">
+  <!-- Centered Content Section -->
+     <div class="content-wrapper">
+     <section id="upload-section">
       <h2>Report an Issue</h2>
       <!-- Add form or upload content here -->
     </section>
-
     <section id="how-it-works">
       <h2>How It Works</h2>
       <!-- Description of how the platform works -->
